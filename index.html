@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Cassandra Boland | Personal Site</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>Cassandra Boland</h1>
+      <p class="subtitle">Computer Science student • GitHub Pages site</p>
+
+      <nav class="nav">
+        <a href="index.html">About</a>
+        <a href="blog/index.html">Course Project Blog</a>
+        <a href="skills.html">Technical Skills</a>
+        <a href="education.html">Education</a>
+        <a href="resume.html">Resume</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>About Me</h2>
+      <p>
+        Hello! My name is Cassandra Boland, and I'm a Computer Science student at University of Colorado Boulder. This website serves as a portfolio for my course project and includes my resume, technical skills, education background, and a blog documenting my project journey.
+      </p>
+    </section>
+
+    <section class="grid">
+      <a class="card link-card" href="blog/index.html">
+        <h3>Course Project Blog</h3>
+        <p>Project updates and general info about the process.</p>
+      </a>
+
+      <a class="card link-card" href="resume.html">
+        <h3>Resume</h3>
+        <p>My resume, available for download/viewing.</p>
+      </a>
+
+      <a class="card link-card" href="skills.html">
+        <h3>Technical Skills</h3>
+        <p>A summary of my programming languages, tools, and frameworks.</p>
+      </a>
+
+      <a class="card link-card" href="education.html">
+        <h3>Education</h3>
+        <p>A summary of my educational background and coursework.</p>
+      </a>
+    </section>
+
+    <section class="card">
+      <h2>Contact</h2>
+      <ul class="list">
+        <li><strong>Email:</strong> cassylboland@gmail.com</li>
+        <li><strong>GitHub:</strong> <a href="https://github.com/cassylboland">github.com/cassyboland</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container small">
+      © <span id="year"></span> Cassandra Boland
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
